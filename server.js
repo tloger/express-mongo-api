@@ -4,8 +4,10 @@ var bodyParser = require('body-parser');
 var port = process.env.PORT || 8080;
 var router = express.Router();
 
+var mongoURI = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/timetracker';
+console.log(mongoURI);
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/timetracker');
+mongoose.connect(mongoURI);
 
 app.use(bodyParser.urlencoded({
   extended: true
