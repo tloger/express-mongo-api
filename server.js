@@ -5,7 +5,6 @@ var port = process.env.PORT || 8080;
 var router = express.Router();
 
 var mongoURI = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/timetracker';
-console.log(mongoURI);
 var mongoose = require('mongoose');
 mongoose.connect(mongoURI);
 
