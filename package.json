@@ -1,17 +1,18 @@
 {
-  "name": "express-mongo-api",
-  "main": "server.js",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": "0.10.x"
-  },
-  "dependencies": {
-    "body-parser": "~1.0.1",
-    "express": "~4.0.0",
-    "mongoose": "~3.6.13",
-    "q": "^1.1.2"
-  }
+    "name": "express-mongo-api",
+    "main": "server.js",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node server.js",
+        "test": "mocha"
+    },
+    "engines": {
+        "node": "0.10.x"
+    },
+    "dependencies": {
+        "body-parser": "~1.0.1",
+        "express": "~4.0.0",
+        "mongoose": "~3.6.13",
+        "q": "^1.1.2"
+    }
 }
