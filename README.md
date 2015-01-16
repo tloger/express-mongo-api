@@ -1,5 +1,7 @@
 # Time Tracker API
 
+[![Build Status](https://travis-ci.org/Time-Tracker/express-mongo-api.svg?branch=master)](https://travis-ci.org/Time-Tracker/express-mongo-api)
+
 API for time tracker project using:-
 * [Node.js](http://nodejs.org/)
 * [MongoDB](https://www.mongodb.com/)
