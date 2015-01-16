@@ -9,14 +9,16 @@ var mongoose = require('mongoose');
 mongoose.connect(mongoURI);
 
 app.use(bodyParser.urlencoded({
-  extended: true
+    extended: true
 }));
 app.use(bodyParser.json());
 
 router.use(function (req, res, next) {
-  console.log('Something is happening.');
-  next();
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
 });
+
 
 require('./app/routes/routes.js')(router);
 
