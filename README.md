@@ -15,7 +15,7 @@ Documentation for the API:- http://docs.apitimetracker1.apiary.io/#
 Make sure you have [Node.js](http://nodejs.org/) and the [MongoDB](https://www.mongodb.com/) installed and running.
 
 ```sh
-git clone https://github.com/Time-Tracker/express-mongo-api.git # or clone your own fork
+git clone https://github.com/tloger/express-mongo-api.git # or clone your own fork
 cd express-mongo-api
 npm install
 node server.js
