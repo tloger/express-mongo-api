@@ -1,6 +1,6 @@
 {
     "name": "Time Tracker API",
-    "repository": "https://github.com/Time-Tracker/express-mongo-api.git",
+    "repository": "https://github.com/tloger/express-mongo-api",
     "logo": "http://node-js-sample.herokuapp.com/node.svg",
     "keywords": ["node", "express", "static", "mongodb", "rest", "api"]
 }
