@@ -8,7 +8,7 @@ API for time tracker project using:-
 * [Express 4](http://expressjs.com/)
 * [Moongoose](http://mongoosejs.com/index.html)
 
-Documentation for the API:- http://docs.apitimetracker1.apiary.io/#
+Documentation for the API:- http://docs.tloger.apiary.io/#
 
 ## Running Locally
 
