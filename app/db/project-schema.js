@@ -1,16 +1,18 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+var validations = require('../utils/validations.js');
 
 var ProjectSchema = new Schema({
   name: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+    validate: validations.nameValidator
   },
-  description: {
-    type: String,
-    required: true
-  }
+  client: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'client'
+  },
 });
 
 module.exports = mongoose.model('project', ProjectSchema);
