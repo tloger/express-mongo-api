@@ -16,6 +16,8 @@
     "q": "^1.1.2"
   },
   "devDependencies": {
-    "mocha": "1.15.1"
+    "expect.js": "^0.3.1",
+    "mocha": "1.15.1",
+    "superagent": "^0.17.0"
   }
 }
